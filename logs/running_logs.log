@@ -57,3 +57,39 @@ x============x]
 [2024-10-30 15:47:11,121 : INFO: main :>>>>>> stage Prepare Base Model completed <<<<<<
 
 x============x]
+[2024-10-30 16:33:30,057 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-10-30 16:33:30,058 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-10-30 16:33:30,059 : INFO: common :Directory already exists for path: artifacts]
+[2024-10-30 16:33:30,059 : INFO: common :Directory created for path: artifacts\training]
+[2024-10-30 16:33:38,683 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-10-30 16:33:38,684 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-10-30 16:33:38,685 : INFO: common :Directory already exists for path: artifacts]
+[2024-10-30 16:33:38,685 : INFO: common :Directory already exists for path: artifacts\training]
+[2024-10-30 16:54:24,483 : INFO: main :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-10-30 16:54:24,484 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-10-30 16:54:24,485 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-10-30 16:54:24,486 : INFO: common :Directory created for path: artifacts]
+[2024-10-30 16:54:24,486 : INFO: common :Directory created for path: artifacts/data_ingestion]
+[2024-10-30 16:54:24,486 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-30 16:57:21,712 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-30 16:57:40,737 : INFO: main :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-10-30 16:57:40,738 : INFO: main :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-10-30 16:57:40,739 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-10-30 16:57:40,740 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-10-30 16:57:40,740 : INFO: common :Directory already exists for path: artifacts]
+[2024-10-30 16:57:40,740 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-10-30 16:57:41,114 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-30 16:57:41,243 : INFO: main :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-10-30 16:57:41,243 : INFO: main :************************]
+[2024-10-30 16:57:41,243 : INFO: main :>>>>>> stage Model Training started <<<<<<]
+[2024-10-30 16:57:41,244 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-10-30 16:57:41,245 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-10-30 16:57:41,246 : INFO: common :Directory already exists for path: artifacts]
+[2024-10-30 16:57:41,246 : INFO: common :Directory created for path: artifacts\training]
+[2024-10-30 17:07:22,562 : INFO: main :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
