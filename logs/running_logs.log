@@ -25,3 +25,35 @@
 [2024-10-30 11:51:46,714 : INFO: main :>>>>>> stage Data Ingestion completed <<<<<<
 
 x============x]
+[2024-10-30 13:39:06,112 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-10-30 13:39:06,117 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-10-30 13:39:06,118 : INFO: common :Directory already exists for path: artifacts]
+[2024-10-30 13:39:06,119 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-10-30 13:40:03,828 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-10-30 13:40:03,830 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-10-30 13:40:03,830 : INFO: common :Directory already exists for path: artifacts]
+[2024-10-30 13:40:03,831 : INFO: common :Directory already exists for path: artifacts/prepare_base_model]
+[2024-10-30 14:26:44,301 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-10-30 14:26:44,303 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-10-30 14:26:44,303 : INFO: common :Directory already exists for path: artifacts]
+[2024-10-30 14:26:44,304 : INFO: common :Directory already exists for path: artifacts/prepare_base_model]
+[2024-10-30 14:26:51,736 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-30 15:43:55,660 : INFO: main :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-10-30 15:43:55,661 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-10-30 15:43:55,662 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-10-30 15:43:55,662 : INFO: common :Directory created for path: artifacts]
+[2024-10-30 15:43:55,662 : INFO: common :Directory created for path: artifacts/data_ingestion]
+[2024-10-30 15:43:55,663 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-30 15:46:55,641 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-30 15:47:10,418 : INFO: main :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-10-30 15:47:10,418 : INFO: main :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-10-30 15:47:10,419 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-10-30 15:47:10,420 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-10-30 15:47:10,421 : INFO: common :Directory already exists for path: artifacts]
+[2024-10-30 15:47:10,421 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-10-30 15:47:10,849 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-30 15:47:11,121 : INFO: main :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
