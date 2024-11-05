@@ -160,3 +160,18 @@ cython_debug/
 #.idea/
 
 artifacts/*
+
+# Ignore MLflow runs directory
+mlruns/
+
+# DVC cache directory
+.dvc/cache
+
+# DVC temporary files
+.dvc/tmp
+
+# DVC lock file (optional)
+
+# Ignore data files tracked by DVC
+data/*
+!data/*.dvc

@@ -93,3 +93,652 @@ x============x]
 [2024-10-30 17:07:22,562 : INFO: main :>>>>>> stage Model Training completed <<<<<<
 
 x============x]
+[2024-11-04 13:18:30,092 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 13:18:30,115 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 13:18:42,940 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 13:18:42,942 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 13:19:02,212 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 13:19:02,213 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 13:19:02,214 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 13:21:59,545 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmp62mz8sj8\model\data\model\assets]
+[2024-11-04 13:29:39,454 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 13:29:39,455 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 13:29:39,456 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 13:32:34,492 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmprz3dpbp7\model\data\model\assets]
+[2024-11-04 13:38:05,389 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 13:38:05,390 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 13:38:05,391 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 13:41:01,610 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 13:41:15,173 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmpedat4juj\model\data\model\assets]
+[2024-11-04 14:43:41,956 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 14:43:41,957 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 14:43:41,958 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 14:46:41,002 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 14:46:43,534 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmp1o4kqhsi\model\data\model\assets]
+[2024-11-04 15:37:33,409 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 15:37:33,411 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 15:37:33,411 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 15:40:28,179 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 15:40:30,581 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmp_xuxl53d\model\data\model\assets]
+[2024-11-04 15:51:27,327 : INFO: main :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 15:51:27,328 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 15:51:27,329 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 15:51:27,349 : INFO: common :Directory created for path: artifacts]
+[2024-11-04 15:51:27,349 : INFO: common :Directory created for path: artifacts/data_ingestion]
+[2024-11-04 15:51:27,350 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 15:54:30,114 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 15:54:42,862 : INFO: main :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-11-04 15:54:42,862 : INFO: main :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-11-04 15:54:42,864 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 15:54:42,865 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 15:54:42,865 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 15:54:42,865 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-11-04 15:54:43,240 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-04 15:54:44,444 : INFO: main :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-11-04 15:54:44,445 : INFO: main :************************]
+[2024-11-04 15:54:44,445 : INFO: main :>>>>>> stage Model Training started <<<<<<]
+[2024-11-04 15:54:44,446 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 15:54:44,447 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 15:54:44,447 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 15:54:44,447 : INFO: common :Directory created for path: artifacts\training]
+[2024-11-04 16:04:29,393 : INFO: main :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-04 16:04:49,858 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 16:04:49,860 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 16:04:49,860 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 16:07:50,912 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 16:07:53,124 : WARNING: save :Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-11-04 16:07:53,616 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmpcgn_i07u\model\data\model\assets]
+[2024-11-04 16:21:03,051 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 16:21:03,056 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 16:21:03,056 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 16:23:55,087 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 16:23:57,230 : WARNING: save :Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-11-04 16:23:57,698 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmp1bjswljt\model\data\model\assets]
+[2024-11-04 16:42:12,814 : INFO: main :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 16:42:12,818 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 16:42:12,822 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 16:42:12,822 : INFO: common :Directory created for path: artifacts]
+[2024-11-04 16:42:12,822 : INFO: common :Directory created for path: artifacts/data_ingestion]
+[2024-11-04 16:42:12,823 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 16:45:23,028 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 16:45:37,703 : INFO: main :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-11-04 16:45:37,703 : INFO: main :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-11-04 16:45:37,704 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 16:45:37,705 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 16:45:37,706 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 16:45:37,706 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-11-04 16:45:38,199 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-04 16:45:38,757 : INFO: main :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-11-04 16:45:38,758 : INFO: main :************************]
+[2024-11-04 16:45:38,758 : INFO: main :>>>>>> stage Model Training started <<<<<<]
+[2024-11-04 16:45:38,759 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 16:45:38,760 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 16:45:38,760 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 16:45:38,760 : INFO: common :Directory created for path: artifacts\training]
+[2024-11-04 16:55:05,630 : INFO: main :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-04 16:55:05,630 : INFO: main :************************]
+[2024-11-04 16:55:05,631 : INFO: main :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-04 16:55:05,632 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 16:55:05,633 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 16:55:05,633 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 16:57:50,672 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 16:57:50,673 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 16:57:51,564 : WARNING: save :Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-11-04 16:57:52,002 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmpcawoad3t\model\data\model\assets]
+[2024-11-04 16:57:56,476 : ERROR: main :No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "main.py", line 56, in <module>
+    pipeline.main()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\pipeline\stage_04_model_evaluation.py", line 18, in main
+    evaluation.log_into_mlflow()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\components\model_evaluation_mlflow.py", line 67, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model")
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-11-04 17:34:51,253 : INFO: main :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 17:34:51,255 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 17:34:51,256 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 17:34:51,256 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 17:34:51,256 : INFO: common :Directory already exists for path: artifacts/data_ingestion]
+[2024-11-04 17:34:51,256 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 17:35:18,649 : INFO: main :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 17:35:18,650 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 17:35:18,651 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 17:35:18,651 : INFO: common :Directory created for path: artifacts]
+[2024-11-04 17:35:18,652 : INFO: common :Directory created for path: artifacts/data_ingestion]
+[2024-11-04 17:35:18,652 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 17:38:39,480 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 17:38:52,142 : INFO: main :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-11-04 17:38:52,142 : INFO: main :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-11-04 17:38:52,143 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 17:38:52,144 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 17:38:52,144 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 17:38:52,145 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-11-04 17:38:52,531 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-04 17:38:52,638 : INFO: main :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-11-04 17:38:52,638 : INFO: main :************************]
+[2024-11-04 17:38:52,639 : INFO: main :>>>>>> stage Model Training started <<<<<<]
+[2024-11-04 17:38:52,640 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 17:38:52,641 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 17:38:52,641 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 17:38:52,641 : INFO: common :Directory created for path: artifacts\training]
+[2024-11-04 17:48:35,726 : INFO: main :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-04 17:48:35,727 : INFO: main :************************]
+[2024-11-04 17:48:35,727 : INFO: main :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-04 17:48:35,729 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 17:48:35,730 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 17:48:35,730 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 17:51:29,163 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 17:51:29,163 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 17:51:30,667 : WARNING: save :Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-11-04 17:51:31,267 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmp9mdgssl9\model\data\model\assets]
+[2024-11-04 17:51:37,271 : ERROR: main :No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "main.py", line 56, in <module>
+    pipeline.main()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\pipeline\stage_04_model_evaluation.py", line 18, in main
+    evaluation.log_into_mlflow()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\components\model_evaluation_mlflow.py", line 67, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model")
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-11-04 17:55:26,638 : INFO: main :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 17:55:26,639 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 17:55:26,640 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 17:55:26,640 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 17:55:26,640 : INFO: common :Directory already exists for path: artifacts/data_ingestion]
+[2024-11-04 17:55:26,640 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 17:58:34,544 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 17:58:47,803 : INFO: main :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-11-04 17:58:47,803 : INFO: main :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-11-04 17:58:47,804 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 17:58:47,805 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 17:58:47,805 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 17:58:47,806 : INFO: common :Directory already exists for path: artifacts/prepare_base_model]
+[2024-11-04 17:58:48,221 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-04 17:58:51,012 : INFO: main :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-11-04 17:58:51,012 : INFO: main :************************]
+[2024-11-04 17:58:51,012 : INFO: main :>>>>>> stage Model Training started <<<<<<]
+[2024-11-04 17:58:51,013 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 17:58:51,014 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 17:58:51,014 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 17:58:51,015 : INFO: common :Directory already exists for path: artifacts\training]
+[2024-11-04 18:08:27,974 : INFO: main :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-04 18:08:27,974 : INFO: main :************************]
+[2024-11-04 18:08:27,974 : INFO: main :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-04 18:08:27,976 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 18:08:27,977 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 18:08:27,977 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 18:11:20,515 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 18:11:20,515 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 18:11:21,395 : WARNING: save :Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-11-04 18:11:21,870 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmpsc1v_6hm\model\data\model\assets]
+[2024-11-04 18:11:28,028 : ERROR: main :No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "main.py", line 56, in <module>
+    pipeline.main()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\pipeline\stage_04_model_evaluation.py", line 18, in main
+    evaluation.log_into_mlflow()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\components\model_evaluation_mlflow.py", line 67, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model")
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-11-04 18:20:42,350 : INFO: main :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 18:20:42,351 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 18:20:42,352 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 18:20:42,352 : INFO: common :Directory created for path: artifacts]
+[2024-11-04 18:20:42,353 : INFO: common :Directory created for path: artifacts/data_ingestion]
+[2024-11-04 18:20:42,353 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 18:23:34,759 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 18:23:51,484 : INFO: main :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-11-04 18:23:51,484 : INFO: main :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-11-04 18:23:51,486 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 18:23:51,486 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 18:23:51,486 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 18:23:51,487 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-11-04 18:23:51,844 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-04 18:23:52,345 : INFO: main :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-11-04 18:23:52,345 : INFO: main :************************]
+[2024-11-04 18:23:52,345 : INFO: main :>>>>>> stage Model Training started <<<<<<]
+[2024-11-04 18:23:52,347 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 18:23:52,347 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 18:23:52,348 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 18:23:52,348 : INFO: common :Directory created for path: artifacts\training]
+[2024-11-04 18:33:44,523 : INFO: main :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-04 18:33:44,524 : INFO: main :*******************]
+[2024-11-04 18:33:44,524 : INFO: main :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-04 18:33:44,525 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 18:33:44,526 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 18:33:44,527 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 18:36:37,400 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 18:36:37,401 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 18:36:37,401 : INFO: main :>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-11-04 18:39:37,724 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 18:39:37,725 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 18:39:37,726 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 18:42:44,164 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 18:42:46,556 : WARNING: save :Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-11-04 18:42:47,034 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmpyf9vd6a_\model\data\model\assets]
+[2024-11-04 18:49:27,779 : INFO: main :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 18:49:27,780 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 18:49:27,785 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 18:49:27,785 : INFO: common :Directory created for path: artifacts]
+[2024-11-04 18:49:27,786 : INFO: common :Directory created for path: artifacts/data_ingestion]
+[2024-11-04 18:49:27,786 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 18:52:30,159 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 18:52:44,017 : INFO: main :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-11-04 18:52:44,018 : INFO: main :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-11-04 18:52:44,019 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 18:52:44,020 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 18:52:44,020 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 18:52:44,020 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-11-04 18:52:44,401 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-04 18:52:44,527 : INFO: main :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-11-04 18:52:44,527 : INFO: main :************************]
+[2024-11-04 18:52:44,527 : INFO: main :>>>>>> stage Model Training started <<<<<<]
+[2024-11-04 18:52:44,529 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 18:52:44,530 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 18:52:44,530 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 18:52:44,531 : INFO: common :Directory created for path: artifacts\training]
+[2024-11-04 19:12:39,805 : INFO: main :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-04 19:12:39,805 : INFO: main :*******************]
+[2024-11-04 19:12:39,805 : INFO: main :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-04 19:12:39,806 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 19:12:39,807 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 19:12:39,808 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 19:15:34,031 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 19:15:34,032 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 19:15:34,913 : WARNING: save :Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-11-04 19:15:35,384 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmp5tywea7t\model\data\model\assets]
+[2024-11-04 19:15:40,908 : ERROR: main :No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "main.py", line 55, in <module>
+    model_evalution.main()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\pipeline\stage_04_model_evaluation.py", line 18, in main
+    evaluation.log_into_mlflow()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\components\model_evaluation_mlflow.py", line 67, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model")
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-11-04 19:28:49,034 : INFO: stage_01_data_ingestion :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 19:28:49,035 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 19:28:49,036 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 19:28:49,036 : INFO: common :Directory created for path: artifacts]
+[2024-11-04 19:28:49,036 : INFO: common :Directory created for path: artifacts/data_ingestion]
+[2024-11-04 19:28:49,037 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 19:31:46,057 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 19:32:00,912 : INFO: stage_01_data_ingestion :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-11-04 19:33:44,795 : INFO: stage_02_prepare_base_model :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-11-04 19:33:44,797 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 19:33:44,798 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 19:33:44,798 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 19:33:44,798 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-11-04 19:33:45,166 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-04 19:33:45,355 : INFO: stage_02_prepare_base_model :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-11-04 19:33:52,199 : INFO: stage_03_model_training :>>>>>> stage Model Training started <<<<<<]
+[2024-11-04 19:33:52,201 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 19:33:52,202 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 19:33:52,202 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 19:33:52,202 : INFO: common :Directory created for path: artifacts\training]
+[2024-11-04 19:53:28,844 : INFO: stage_03_model_training :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-04 19:58:31,941 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-04 19:58:31,946 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 19:58:31,947 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 19:58:31,948 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 20:01:22,801 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 20:01:22,801 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 20:01:22,802 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage completed <<<<<<
+
+x============x]
+[2024-11-04 20:13:56,620 : INFO: stage_02_prepare_base_model :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-11-04 20:13:56,622 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 20:13:56,622 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 20:13:56,623 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 20:13:56,623 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-11-04 20:13:56,852 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-04 20:13:56,950 : INFO: stage_02_prepare_base_model :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-11-04 20:14:02,652 : INFO: stage_03_model_training :>>>>>> stage Model Training started <<<<<<]
+[2024-11-04 20:14:02,654 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 20:14:02,654 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 20:14:02,655 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 20:14:02,655 : INFO: common :Directory already exists for path: artifacts\training]
+[2024-11-04 20:33:34,714 : INFO: stage_03_model_training :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-04 20:33:43,204 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-04 20:33:43,206 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 20:33:43,207 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 20:33:43,207 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 20:36:34,761 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 20:36:34,762 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 20:36:34,762 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage completed <<<<<<
+
+x============x]
+[2024-11-04 20:42:22,105 : INFO: stage_01_data_ingestion :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 20:42:22,107 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 20:42:22,108 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 20:42:22,109 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 20:42:22,109 : INFO: common :Directory already exists for path: artifacts/data_ingestion]
+[2024-11-04 20:42:22,109 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 20:45:41,235 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 20:46:07,159 : INFO: stage_01_data_ingestion :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-11-04 20:52:22,115 : INFO: stage_01_data_ingestion :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 20:52:22,116 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 20:52:22,117 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 20:52:22,117 : INFO: common :Directory created for path: artifacts]
+[2024-11-04 20:52:22,118 : INFO: common :Directory created for path: artifacts/data_ingestion]
+[2024-11-04 20:52:22,118 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 20:55:17,208 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 20:55:31,208 : INFO: stage_01_data_ingestion :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-11-04 20:57:11,494 : INFO: stage_02_prepare_base_model :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-11-04 20:57:11,496 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 20:57:11,496 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 20:57:11,497 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 20:57:13,180 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-11-04 20:57:13,549 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-04 20:57:13,670 : INFO: stage_02_prepare_base_model :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-11-04 20:57:20,188 : INFO: stage_03_model_training :>>>>>> stage Model Training started <<<<<<]
+[2024-11-04 20:57:20,189 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 20:57:20,190 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 20:57:20,190 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 20:57:20,190 : INFO: common :Directory created for path: artifacts\training]
+[2024-11-04 21:16:19,107 : INFO: stage_03_model_training :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-04 21:16:28,008 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-04 21:16:28,009 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 21:16:28,010 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 21:16:28,010 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 21:40:17,767 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-04 21:40:17,768 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 21:40:17,769 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 21:40:17,769 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 21:43:16,882 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 21:43:16,883 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 21:43:16,883 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage completed <<<<<<
+
+x============x]
+[2024-11-04 21:56:00,841 : INFO: stage_01_data_ingestion :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 21:56:00,842 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 21:56:00,843 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 21:56:00,843 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 21:56:00,844 : INFO: common :Directory already exists for path: artifacts/data_ingestion]
+[2024-11-04 21:56:00,844 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 22:01:48,506 : INFO: stage_01_data_ingestion :>>>>>> stage Data Ingestion started <<<<<<]
+[2024-11-04 22:01:48,508 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 22:01:48,508 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 22:01:48,509 : INFO: common :Directory created for path: artifacts]
+[2024-11-04 22:01:48,509 : INFO: common :Directory created for path: artifacts/data_ingestion]
+[2024-11-04 22:01:48,509 : INFO: data_ingestion :Downloading data from https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 22:04:45,927 : INFO: data_ingestion :Data downloaded at https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-04 22:05:07,405 : INFO: stage_01_data_ingestion :>>>>>> stage Data Ingestion completed <<<<<<
+
+x============x]
+[2024-11-04 22:13:38,704 : INFO: stage_02_prepare_base_model :>>>>>> stage Prepare Base Model started <<<<<<]
+[2024-11-04 22:13:38,710 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 22:13:38,711 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 22:13:38,711 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 22:13:38,712 : INFO: common :Directory created for path: artifacts/prepare_base_model]
+[2024-11-04 22:13:39,072 : WARNING: saving_utils :Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-04 22:13:39,181 : INFO: stage_02_prepare_base_model :>>>>>> stage Prepare Base Model completed <<<<<<
+
+x============x]
+[2024-11-04 22:13:48,034 : INFO: stage_03_model_training :>>>>>> stage Model Training started <<<<<<]
+[2024-11-04 22:13:48,035 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 22:13:48,036 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 22:13:48,036 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 22:13:48,037 : INFO: common :Directory created for path: artifacts\training]
+[2024-11-04 22:33:00,467 : INFO: stage_03_model_training :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-04 22:33:09,282 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-04 22:33:09,283 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-04 22:33:09,284 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-04 22:33:09,284 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-04 22:35:56,349 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 22:35:56,350 : INFO: common :Json file saved at: scores.json]
+[2024-11-04 22:35:56,350 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage completed <<<<<<
+
+x============x]
+[2024-11-05 10:26:17,757 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-05 10:26:17,771 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-05 10:26:17,808 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-05 10:26:17,808 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-05 10:29:09,088 : INFO: common :Json file saved at: scores.json]
+[2024-11-05 10:29:09,088 : INFO: common :Json file saved at: scores.json]
+[2024-11-05 10:29:09,889 : WARNING: save :Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-11-05 10:29:10,340 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmpuc0atx4t\model\data\model\assets]
+[2024-11-05 10:29:15,103 : ERROR: stage_04_model_evaluation :No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "src/Kidney_Disease_Classification/pipeline/stage_04_model_evaluation.py", line 25, in <module>
+    pipeline.main()
+  File "src/Kidney_Disease_Classification/pipeline/stage_04_model_evaluation.py", line 18, in main
+    evaluation.log_into_mlflow()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\components\model_evaluation_mlflow.py", line 71, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model")
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-11-05 10:30:45,876 : INFO: stage_03_model_training :>>>>>> stage Model Training started <<<<<<]
+[2024-11-05 10:30:45,877 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-05 10:30:45,878 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-05 10:30:45,878 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-05 10:30:45,879 : INFO: common :Directory already exists for path: artifacts\training]
+[2024-11-05 15:18:04,337 : INFO: stage_03_model_training :>>>>>> stage Model Training completed <<<<<<
+
+x============x]
+[2024-11-05 15:18:14,540 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-05 15:18:14,545 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-05 15:18:14,546 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-05 15:18:14,547 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-05 15:21:06,207 : INFO: common :Json file saved at: scores.json]
+[2024-11-05 15:21:06,208 : INFO: common :Json file saved at: scores.json]
+[2024-11-05 15:21:06,208 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage completed <<<<<<
+
+x============x]
+[2024-11-05 15:26:10,866 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-05 15:26:10,867 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-05 15:26:10,868 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-05 15:26:10,869 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-05 15:29:03,669 : INFO: common :Json file saved at: scores.json]
+[2024-11-05 15:29:03,670 : INFO: common :Json file saved at: scores.json]
+[2024-11-05 15:29:04,502 : WARNING: save :Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-11-05 15:29:04,972 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmpfkl0u12r\model\data\model\assets]
+[2024-11-05 15:29:09,579 : ERROR: stage_04_model_evaluation :No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "src/Kidney_Disease_Classification/pipeline/stage_04_model_evaluation.py", line 25, in <module>
+    pipeline.main()
+  File "src/Kidney_Disease_Classification/pipeline/stage_04_model_evaluation.py", line 18, in main
+    evaluation.log_into_mlflow()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\components\model_evaluation_mlflow.py", line 71, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model")
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-11-05 15:35:10,996 : INFO: stage_04_model_evaluation :>>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-05 15:35:10,997 : INFO: common :yaml file: config\config.yaml loaded successfully]
+[2024-11-05 15:35:10,998 : INFO: common :yaml file: params.yaml loaded successfully]
+[2024-11-05 15:35:10,998 : INFO: common :Directory already exists for path: artifacts]
+[2024-11-05 15:38:02,256 : INFO: common :Json file saved at: scores.json]
+[2024-11-05 15:38:02,256 : INFO: common :Json file saved at: scores.json]
+[2024-11-05 15:38:03,028 : WARNING: save :Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-11-05 15:38:03,487 : INFO: builder_impl :Assets written to: C:\Users\Sahil\AppData\Local\Temp\tmpg3avmbme\model\data\model\assets]
+[2024-11-05 15:38:08,254 : ERROR: stage_04_model_evaluation :No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "src/Kidney_Disease_Classification/pipeline/stage_04_model_evaluation.py", line 25, in <module>
+    pipeline.main()
+  File "src/Kidney_Disease_Classification/pipeline/stage_04_model_evaluation.py", line 18, in main
+    evaluation.log_into_mlflow()
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\components\model_evaluation_mlflow.py", line 71, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model")
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'

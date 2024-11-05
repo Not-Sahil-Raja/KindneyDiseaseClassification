@@ -16,7 +16,7 @@ class Training:
 
     def train_valid_generator(self):
 
-        datagenerator_kwargs = dict(rescale=1.0 / 255, validation_split=0.20)
+        datagenerator_kwargs = dict(rescale=1.0 / 255, validation_split=0.3)
 
         dataflow_kwargs = dict(
             target_size=self.config.params_image_size[:-1],

@@ -1,9 +1,14 @@
 from Kidney_Disease_Classification.constants import *
-from Kidney_Disease_Classification.utils.common import read_yaml, create_directory
+from Kidney_Disease_Classification.utils.common import (
+    read_yaml,
+    create_directory,
+    save_json,
+)
 from Kidney_Disease_Classification.entity.config_entity import (
     DataIngestionConfig,
     PrepareBaseModelConfig,
     TrainingConfig,
+    EvaluationConfig,
 )
 
 import os
@@ -60,7 +65,7 @@ class ConfigurationManager:
         params = self.params
         training_data = os.path.join(
             self.config.data_ingestion.unzip_dir,
-            "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone",
+            "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone",
         )
         create_directory([Path(training.root_dir)])
 
@@ -76,3 +81,15 @@ class ConfigurationManager:
         )
 
         return training_config
+
+    def get_evaluation_config(self) -> EvaluationConfig:
+        eval_config = EvaluationConfig(
+            path_of_model="artifacts/training/model.h5",
+            training_data="artifacts/data_ingestion/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone",
+            mlflow_uri="https://dagshub.com/Not-Sahil-Raja/KindneyDiseaseClassification.mlflow",
+            all_params=self.params,
+            params_image_size=self.params.IMAGE_SIZE,
+            params_batch_size=self.params.BATCH_SIZE,
+        )
+
+        return eval_config

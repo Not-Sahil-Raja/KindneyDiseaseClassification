@@ -4,7 +4,7 @@ data_ingestion:
   root_dir: artifacts/data_ingestion
   source_URL: https://drive.google.com/file/d/1KaPgmCOze7F-9yT_-Yq2mtPyhBXDbVzq/view?usp=sharing
   local_file: artifacts/data_ingestion/data.zip
-  unzip_dir: artifacts/data_ingestion
+  unzip_dir: artifacts/data_ingestion/
 
 prepare_base_model:
   root_dir: artifacts/prepare_base_model
