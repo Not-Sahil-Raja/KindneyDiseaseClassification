@@ -742,3 +742,358 @@ Traceback (most recent call last):
   File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
     from distutils._modified import newer
 ModuleNotFoundError: No module named 'distutils._modified'
+[2024-11-05 16:01:18,664 : INFO: _internal :[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2024-11-05 16:01:18,664 : INFO: _internal :[33mPress CTRL+C to quit[0m]
+[2024-11-05 16:01:27,813 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:01:27] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:01:58,810 : ERROR: app :Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 37, in predictRoute
+    decodeImage(image, client_app.filename)
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\utils\common.py", line 76, in decodeImage
+    image = base64.b64decode(image)
+UnboundLocalError: local variable 'image' referenced before assignment
+[2024-11-05 16:01:58,812 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:01:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-05 16:04:05,714 : INFO: _internal :[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2024-11-05 16:04:05,714 : INFO: _internal :[33mPress CTRL+C to quit[0m]
+[2024-11-05 16:04:11,685 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:04:11] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:04:21,601 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:04:21] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:04:43,259 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:04:43] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:05:48,694 : INFO: _internal :[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2024-11-05 16:05:48,694 : INFO: _internal :[33mPress CTRL+C to quit[0m]
+[2024-11-05 16:05:57,645 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:05:57] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:06:03,069 : ERROR: app :Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 38, in predictRoute
+    decodeImage(image, clApp.filename)
+  File "d:\coding\mlproject\kindneydiseaseclassification\src\Kidney_Disease_Classification\utils\common.py", line 76, in decodeImage
+    image = base64.b64decode(image)
+UnboundLocalError: local variable 'image' referenced before assignment
+[2024-11-05 16:06:03,072 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:06:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-05 16:07:59,048 : INFO: _internal :[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2024-11-05 16:07:59,049 : INFO: _internal :[33mPress CTRL+C to quit[0m]
+[2024-11-05 16:08:03,864 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:08:03] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:08:10,129 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:08:10] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:08:25,731 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:08:25] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:08:31,022 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:08:31] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:08:39,036 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:08:39] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:08:45,617 : WARNING: polymorphic_function :5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002909E3E49D0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-11-05 16:08:45,620 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:08:45] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:10:17,405 : INFO: _internal :[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2024-11-05 16:10:17,406 : INFO: _internal :[33mPress CTRL+C to quit[0m]
+[2024-11-05 16:10:20,264 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:10:20] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:10:25,574 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:10:25] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:10:30,916 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:10:30] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:10:38,315 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:10:38] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:10:52,500 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:10:52] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:11:03,517 : WARNING: polymorphic_function :5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001A322C86430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-11-05 16:11:03,519 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:11:03] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:19:50,404 : INFO: _internal :[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2024-11-05 16:19:50,405 : INFO: _internal :[33mPress CTRL+C to quit[0m]
+[2024-11-05 16:19:59,008 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:19:59] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:20:07,127 : ERROR: app :Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 40, in predictRoute
+    return jsonify(result)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ndarray is not JSON serializable
+[2024-11-05 16:20:07,133 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:20:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-05 16:22:14,379 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:22:14] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:22:18,278 : ERROR: app :Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 40, in predictRoute
+    return jsonify(result)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ndarray is not JSON serializable
+[2024-11-05 16:22:18,280 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:22:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-05 16:23:37,881 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:23:37] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:23:42,258 : ERROR: app :Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 40, in predictRoute
+    return jsonify(result)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ndarray is not JSON serializable
+[2024-11-05 16:23:42,260 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:23:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-05 16:23:53,563 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:23:53] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:24:12,627 : ERROR: app :Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 40, in predictRoute
+    return jsonify(result)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ndarray is not JSON serializable
+[2024-11-05 16:24:12,629 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:24:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-05 16:24:23,197 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:24:23] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:24:43,073 : WARNING: polymorphic_function :5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002622EE654C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-11-05 16:24:43,075 : ERROR: app :Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 40, in predictRoute
+    return jsonify(result)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ndarray is not JSON serializable
+[2024-11-05 16:24:43,077 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:24:43] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-05 16:24:46,007 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:24:46] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:24:53,321 : INFO: _internal :[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2024-11-05 16:24:53,322 : INFO: _internal :[33mPress CTRL+C to quit[0m]
+[2024-11-05 16:24:59,996 : ERROR: app :Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 40, in predictRoute
+    return jsonify(result)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type int64 is not JSON serializable
+[2024-11-05 16:25:00,000 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:25:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-05 16:25:04,312 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:25:04] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:25:14,020 : ERROR: app :Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 40, in predictRoute
+    return jsonify(result)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Sahil\miniconda3\envs\kidney_CNN\lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type int64 is not JSON serializable
+[2024-11-05 16:25:14,023 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:25:14] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-05 16:25:32,667 : INFO: _internal :[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2024-11-05 16:25:32,667 : INFO: _internal :[33mPress CTRL+C to quit[0m]
+[2024-11-05 16:25:34,217 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:25:34] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:25:38,047 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:25:38] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:25:44,374 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:25:44] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:25:47,963 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:25:47] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:26:53,960 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:26:53] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:27:00,815 : WARNING: polymorphic_function :5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000205606169D0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-11-05 16:27:00,818 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:27:00] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:27:09,817 : WARNING: polymorphic_function :6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000020560A5E820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-11-05 16:27:09,820 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:27:09] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:30:30,941 : INFO: _internal :[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2024-11-05 16:30:30,941 : INFO: _internal :[33mPress CTRL+C to quit[0m]
+[2024-11-05 16:30:30,942 : INFO: _internal : * Restarting with stat]
+[2024-11-05 16:30:33,295 : WARNING: _internal : * Debugger is active!]
+[2024-11-05 16:30:33,305 : INFO: _internal : * Debugger PIN: 142-681-609]
+[2024-11-05 16:30:33,317 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:30:33] "GET / HTTP/1.1" 200 -]
+[2024-11-05 16:30:40,639 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:30:40] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:30:59,123 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:30:59] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:31:45,773 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:31:45] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:31:57,828 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:31:57] "POST /predict HTTP/1.1" 200 -]
+[2024-11-05 16:33:21,944 : WARNING: polymorphic_function :5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002285D17B310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-11-05 16:33:21,946 : INFO: _internal :127.0.0.1 - - [05/Nov/2024 16:33:21] "POST /predict HTTP/1.1" 200 -]

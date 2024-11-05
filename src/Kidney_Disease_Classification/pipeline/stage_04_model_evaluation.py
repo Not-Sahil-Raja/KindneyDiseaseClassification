@@ -15,7 +15,7 @@ class EvaluationPipeline:
         evaluation = Evaluation(config=evaluation_config)
         evaluation.evaluation()
         evaluation.save_score()
-        evaluation.log_into_mlflow()
+        # evaluation.log_into_mlflow() #(getting error while running this line No module named 'distutils._modified')
 
 
 if __name__ == "__main__":
