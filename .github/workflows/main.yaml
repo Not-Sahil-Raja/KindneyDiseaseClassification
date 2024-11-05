@@ -53,7 +53,7 @@ jobs:
           docker push $DOCKERHUB_REPOSITORY:$IMAGE_TAG
           echo "::set-output name=image::$DOCKERHUB_REPOSITORY:$IMAGE_TAG"
 
-    deploy-to-vercel:
+  deploy-to-vercel:
     needs: build-and-push-dockerhub-image
     runs-on: ubuntu-latest
     steps:
