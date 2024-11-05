@@ -53,20 +53,16 @@ jobs:
           docker push $DOCKERHUB_REPOSITORY:$IMAGE_TAG
           echo "::set-output name=image::$DOCKERHUB_REPOSITORY:$IMAGE_TAG"
 
-  deploy-to-render:
+    deploy-to-vercel:
     needs: build-and-push-dockerhub-image
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Deploy to Render
+      - name: Deploy to Vercel
         env:
-          RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
-          curl -X POST \
-            -H "Accept: application/json" \
-            -H "Authorization: Bearer $RENDER_API_KEY" \
-            -H "Content-Type: application/json" \
-            -d '{"serviceId": "YOUR_RENDER_SERVICE_ID", "branch": "main"}' \
-            https://api.render.com/v1/services/YOUR_RENDER_SERVICE_ID/deploys
+          npm install -g vercel
+          vercel --prod --token $VERCEL_TOKEN
