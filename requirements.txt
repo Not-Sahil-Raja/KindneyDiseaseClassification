@@ -15,5 +15,9 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
+gunicorn
+uvicorn
+fastapi
+pydantic
 gdown
 -e .

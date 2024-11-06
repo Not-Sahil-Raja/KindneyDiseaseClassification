@@ -1,46 +1,44 @@
-from flask import Flask, request, jsonify, render_template
-from flask_cors import CORS, cross_origin
-from Kidney_Disease_Classification.utils.common import decodeImage
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
 from Kidney_Disease_Classification.pipeline.prediction import PredictionPipeline
-import os
 
-os.putenv("LANG", "en_US.UTF-8")
-os.putenv("LC_ALL", "en_US.UTF-8")
+app = FastAPI()
 
-app = Flask(__name__)
-CORS(app)
+# Allow CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class ClientApp:
     def __init__(self):
-        self.filename = "inputImage.jpg"
-        self.classifier = PredictionPipeline(self.filename)
+        self.classifier = None
 
 
-@app.route("/", methods=["GET"])
-@cross_origin()
-def home():
-    return render_template("index.html")
+clApp = ClientApp()
 
 
-@app.route("/train", methods=["GET", "POST"])
-@cross_origin()
-def trainRoute():
+@app.post("/train")
+async def train_route():
     os.system("python main.py")
     # os.system("dvc repro")
-    return "Training done successfully!"
+    return {"message": "Training done successfully!"}
 
 
-@app.route("/predict", methods=["POST"])
-@cross_origin()
-def predictRoute():
-    image = request.json["image"]
-    decodeImage(image, clApp.filename)
+@app.post("/predict")
+async def predict_route(request: Request):
+    data = await request.json()
+    image_data = data["image"]
+    clApp.classifier = PredictionPipeline(image_data)
     result = clApp.classifier.predict()
-    return jsonify(result)
+    return result
 
 
 if __name__ == "__main__":
-    clApp = ClientApp()
+    import uvicorn
 
-    app.run(host="0.0.0.0", port=8080, debug=True)  # for AWS
+    uvicorn.run(app, host="0.0.0.0", port=8080)

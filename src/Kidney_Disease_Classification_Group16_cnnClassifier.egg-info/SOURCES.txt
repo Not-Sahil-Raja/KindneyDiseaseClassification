@@ -2,6 +2,7 @@ setup.py
 src/Kidney_Disease_Classification/__init__.py
 src/Kidney_Disease_Classification/components/__init__.py
 src/Kidney_Disease_Classification/components/data_ingestion.py
+src/Kidney_Disease_Classification/components/model_evaluation_mlflow.py
 src/Kidney_Disease_Classification/components/model_training.py
 src/Kidney_Disease_Classification/components/prepare_base_model.py
 src/Kidney_Disease_Classification/config/__init__.py
@@ -10,9 +11,11 @@ src/Kidney_Disease_Classification/constants/__init__.py
 src/Kidney_Disease_Classification/entity/__init__.py
 src/Kidney_Disease_Classification/entity/config_entity.py
 src/Kidney_Disease_Classification/pipeline/__init__.py
+src/Kidney_Disease_Classification/pipeline/prediction.py
 src/Kidney_Disease_Classification/pipeline/stage_01_data_ingestion.py
 src/Kidney_Disease_Classification/pipeline/stage_02_prepare_base_model.py
 src/Kidney_Disease_Classification/pipeline/stage_03_model_training.py
+src/Kidney_Disease_Classification/pipeline/stage_04_model_evaluation.py
 src/Kidney_Disease_Classification/utils/__init__.py
 src/Kidney_Disease_Classification/utils/common.py
 src/Kidney_Disease_Classification_Group16_cnnClassifier.egg-info/PKG-INFO
