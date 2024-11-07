@@ -137,3 +137,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 - [VisoAi VGG Blog](https://viso.ai/deep-learning/vgg-very-deep-convolutional-networks/#:~:text=The%20VGG16%20model%20achieves%20almost,models%20submitted%20to%20ILSVRC%2D2014.)
 - [GFG VGG-16](https://www.geeksforgeeks.org/vgg-16-cnn-model/)
 - [Kaggle Kidney Disease Dataset](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone)
+- [VGG16 Model Visualitation](https://youtu.be/RNnKtNrsrmg?si=7W3P2XSfgR5KWbvg)
