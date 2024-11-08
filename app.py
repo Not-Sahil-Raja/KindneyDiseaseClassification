@@ -1,6 +1,8 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from Kidney_Disease_Classification.pipeline.prediction import PredictionPipeline
+import os
+import base64
 
 app = FastAPI()
 
@@ -33,6 +35,16 @@ async def train_route():
 async def predict_route(request: Request):
     data = await request.json()
     image_data = data["image"]
+    clApp.classifier = PredictionPipeline(image_data)
+    result = clApp.classifier.predict()
+    return result
+
+
+@app.post("/predict/file")
+async def predict_file_route(request: Request):
+    data = await request.form()
+    image_file = await data["file"].read()
+    image_data = base64.b64encode(image_file).decode("utf-8")
     clApp.classifier = PredictionPipeline(image_data)
     result = clApp.classifier.predict()
     return result
