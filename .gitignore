@@ -175,3 +175,6 @@ mlruns/
 # Ignore data files tracked by DVC
 data/*
 !data/*.dvc
+
+# Add __pycache__ directory
+__pycache__/

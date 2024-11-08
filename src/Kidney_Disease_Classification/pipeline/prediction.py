@@ -1,4 +1,5 @@
 import numpy as np
+import tensorflow as tf
 import os
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
@@ -18,25 +19,21 @@ class PredictionPipeline:
         return img
 
     def predict(self):
-        model = load_model(os.path.join("model", "model.h5"))
-        # model = load_model(os.path.join("artifacts", "training", "model.h5"))
+        model_path = "model/test/model.h5"
+        model = tf.keras.models.load_model(model_path)
 
-        img = self.decode_image()
+        # Load and preprocess the image
+        img = Image.open(BytesIO(self.image_data)).convert("RGB")
         img = img.resize((224, 224))
         img_array = image.img_to_array(img)
-        img_array = np.expand_dims(img_array, axis=0)
-        result = np.argmax(model.predict(img_array), axis=1)
-        print(result)
+        img_array = np.expand_dims(img_array, axis=0) / 255.0  # Normalize the image
 
-        if result[0] == 0:
-            prediction = "Kidney Disease"
-            return [{"image": prediction}]
-        elif result[0] == 1:
-            prediction = "Normal"
-            return [{"image": prediction}]
-        elif result[0] == 2:
-            prediction = "Stone"
-            return [{"image": prediction}]
-        else:
-            prediction = "Tumor"
-            return [{"image": prediction}]
+        # Make a prediction
+        predictions = model.predict(img_array)
+        predicted_class = np.argmax(predictions, axis=1)
+
+        # Define class labels
+        class_labels = {0: "CYST", 1: "NORMAL", 2: "STONE", 3: "TUMOR"}
+        predicted_label = class_labels[predicted_class[0]]
+
+        return {"result": predicted_label}
