@@ -72,6 +72,8 @@ jobs:
 
       - name: Remove large files before push
         run: |
+          git config --global user.email "sahilraja2002@gmail.com"
+          git config --global user.name "Not-Sahil-Raja"
           git rm --cached ScreenShots/Scores/best_model.keras
           git rm --cached ScreenShots/Scores/model.h5
           git rm --cached ScreenShots/Scores/my_model.keras
