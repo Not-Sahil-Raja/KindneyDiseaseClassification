@@ -5,7 +5,7 @@ stages:
       - src/Kidney_Disease_Classification/pipeline/stage_01_data_ingestion.py
       - config/config.yaml
     outs:
-      - artifacts/data_ingestion/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone
+      - artifacts/data_ingestion/content/data/CT KIDNEY DATASET Normal, CYST, TUMOR and STONE
 
   prepare_base_model:
     cmd: python src/Kidney_Disease_Classification/pipeline/stage_02_prepare_base_model.py

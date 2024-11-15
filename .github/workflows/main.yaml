@@ -52,3 +52,21 @@ jobs:
           docker build -t $DOCKERHUB_REPOSITORY:$IMAGE_TAG .
           docker push $DOCKERHUB_REPOSITORY:$IMAGE_TAG
           echo "::set-output name=image::$DOCKERHUB_REPOSITORY:$IMAGE_TAG"
+
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Check large files
+        uses: ActionsDesk/lfs-warning@v2.0
+        with:
+          filesizelimit: 10485760 # 10MB
+
+      - name: Push to hub
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: git push https://SahilRaja:$HF_TOKEN@huggingface.co/spaces/SahilRaja/Kidney_Disease_Classifier main
