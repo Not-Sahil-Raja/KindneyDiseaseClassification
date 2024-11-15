@@ -1,3 +1,14 @@
+---
+title: Kidney Disease Classification
+emoji: 🌍
+colorFrom: blue
+colorTo: red
+sdk: docker
+pinned: false
+license: apache-2.0
+short_description: This project aims to classify kidney disease.
+---
+
 # Kidney Disease Classification
 
 This project aims to classify kidney disease using a deep learning model based on the VGG16 architecture. The project involves data ingestion, preprocessing, model training, and evaluation using TensorFlow and MLflow for experiment tracking.
