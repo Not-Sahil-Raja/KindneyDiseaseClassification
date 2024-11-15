@@ -60,17 +60,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Fetch remote changes
-        run: git fetch origin
-
-      - name: Merge remote changes
-        run: git merge origin/main
-
       - name: Check large files
         run: |
           find . -type f -size +10M
 
+      - name: Add Remote
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: git remote add space https://SahilRaja:$HF_TOKEN@huggingface.co/spaces/SahilRaja/Kidney_Disease_Classifier
+
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push -f https://SahilRaja:$HF_TOKEN@huggingface.co/spaces/SahilRaja/Kidney_Disease_Classifier main
+        run: git push --force https://SahilRaja:$HF_TOKEN@huggingface.co/spaces/SahilRaja/Kidney_Disease_Classifier main
