@@ -180,11 +180,11 @@ data/*
 __pycache__/
 
 # Ignore model files
-model/*
-model/ct_scan_classification_model.h5
+# model/*
+# model/ct_scan_classification_model.h5
 
 # Ignore logs
 logs/*
 
 # Ignore screenshots
-ScreenShots/*
+# ScreenShots/*
