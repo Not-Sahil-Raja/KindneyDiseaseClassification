@@ -23,6 +23,11 @@ class ClientApp:
 clApp = ClientApp()
 
 
+@app.get("/")
+async def home():
+    return {"message": "Welcome to Kidney Disease Classification API"}
+
+
 @app.post("/train")
 async def train_route():
     os.system("python main.py")
