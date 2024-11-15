@@ -41,7 +41,7 @@ class PredictionPipeline:
             }
 
         # Load the classification model
-        classification_model_path = "model/test/model.h5"
+        classification_model_path = "model/model.h5"
         classification_model = tf.keras.models.load_model(classification_model_path)
 
         # Make a prediction And Calculate the confidence
