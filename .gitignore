@@ -178,3 +178,5 @@ data/*
 
 # Add __pycache__ directory
 __pycache__/
+
+model/ct_scan_classification_model.h5
