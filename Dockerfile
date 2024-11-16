@@ -15,7 +15,9 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Create a directory to store the model
-RUN mkdir -p /app/model
+RUN mkdir -p model
+
+# Download the model and unzip it
 RUN python download_model.py
 
 # Expose the port the app runs on
