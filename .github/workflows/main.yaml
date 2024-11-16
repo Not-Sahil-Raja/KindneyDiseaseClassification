@@ -69,12 +69,3 @@ jobs:
           space: ${{ vars.HF_SPACE_NAME }}
           token: ${{ secrets.HF_TOKEN }}
           configuration: "README.md.yml"
-
-      - name: Add Remote
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git remote add space https://SahilRaja:$HF_TOKEN@huggingface.co/spaces/SahilRaja/Kidney_Disease_Classifier
-      - name: Push to hub
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://SahilRaja:$HF_TOKEN@huggingface.co/spaces/SahilRaja/Kidney_Disease_Classifier main
