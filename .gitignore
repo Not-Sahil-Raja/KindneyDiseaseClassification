@@ -180,7 +180,7 @@ data/*
 __pycache__/
 
 # Ignore model files
-model/test/*
+model/*
 # model/ct_scan_classification_model.h5
 
 # Ignore logs
