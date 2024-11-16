@@ -43,6 +43,10 @@ style="boreder-radius: 8px"
 
 - **After using much higher epoch we managed to get almost 99.5% accuracy on the validation set.**
 
+  ![AccuracyAndLoss](https://github.com/user-attachments/assets/d19342f3-28bf-44ae-a106-bc85334f0837)
+
+
+
 - **A FastAPI endpoint is provided, enabling seamless predictions from anywhere with ease.**
 
 ## Installation 🛠️
@@ -211,9 +215,15 @@ In this section, we evaluate the performance of our deep learning model for kidn
 
 - **Confusion Matrix**:
   To gain further insights into the model's performance, we use a confusion matrix to visualize the classification results.
+  
+  ![confusion_matrix](https://github.com/user-attachments/assets/595a0703-dc21-4816-986f-d11b4e99482b)
+
 
 - **Classification Report**:
   The classification report provides a summary of the model's performance, including precision, recall, and F1 score for each class.
+
+  ![classification report](https://github.com/user-attachments/assets/5fc34bc0-8926-4713-af22-8f3f9aa04adf)
+
 
 ## License
 
