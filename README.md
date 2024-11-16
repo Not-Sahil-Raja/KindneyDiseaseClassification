@@ -2,11 +2,26 @@
 
 <h3 align="center">This project classifies kidney disease using Deep Learning Model.</h3>
 
-<img
+<!-- <img
 src="https://img.shields.io/github/license/Not-Sahil-Raja/KindneyDiseaseClassification"
 alt="Logo"
 style="boreder-radius: 8px"
-/>
+/> -->
+
+<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+   <a href="https://kidneyhealthai.vercel.app/">
+      <img src="https://img.shields.io/badge/Deployed-Frontend-blue?style=for-the-badge&logo=vercel" alt="Deployed Frontend">
+   </a>
+   <a href="https://huggingface.co/spaces/SahilRaja/Kidney_Disease_Classifier">
+      <img src="https://img.shields.io/badge/Deployed-Backend-orange?style=for-the-badge&logo=huggingface" alt="Deployed Backend">
+   </a>
+</div>
+
+<div align="center" style="margin-top: 10px;">
+  <a href="https://github.com/Not-Sahil-Raja/KindneyDiseaseClassificationFrontend">
+    <img src="https://img.shields.io/badge/Frontend-Repository-olive?style=for-the-badge&logo=github" alt="Frontend Repository">
+  </a>
+</div>
 
 ## What is the Aim of this Project?
 
