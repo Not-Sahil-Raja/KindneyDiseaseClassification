@@ -62,7 +62,7 @@ jobs:
           lfs: true
 
       - name: Sync to Hugging Face Spaces
-        uses: Not-Sahil-Raja/KindneyDiseaseClassification@v1
+        uses: Not-Sahil-Raja/KindneyDiseaseClassification
         with:
           github: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ vars.HF_SPACE_OWNER }}
