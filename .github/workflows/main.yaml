@@ -61,9 +61,14 @@ jobs:
           fetch-depth: 0
           lfs: true
 
-      - name: Check large files
-        run: |
-          find . -type f -size +10M
+      - name: Sync to Hugging Face Spaces
+        uses: Not-Sahil-Raja/KindneyDiseaseClassification@v1
+        with:
+          github: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ vars.HF_SPACE_OWNER }}
+          space: ${{ vars.HF_SPACE_NAME }}
+          token: ${{ secrets.HF_TOKEN }}
+          configuration: "README.md.yml"
 
       - name: Add Remote
         env:
