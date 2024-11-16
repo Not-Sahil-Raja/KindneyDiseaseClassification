@@ -1,25 +1,3 @@
----
-title: Kidney Disease Classification
-emoji: 🩺
-colorFrom: blue
-colorTo: purple
-sdk: docker
-pinned: true
-license: apache-2.0
-short_description: A deep learning-based project to classify kidney diseases from medical images, utilizing a sequential model and FastAPI for serving predictions.
-tags:
-  - deep learning
-  - medical imaging
-  - kidney disease
-  - classification
-  - FastAPI
-  - TensorFlow
-  - healthcare AI
-  - Docker
-long_description: |
-  This project leverages deep learning techniques to classify kidney disease from medical images. It includes a binary classifier to identify kidney CT scans and a multi-class classifier to differentiate types of kidney diseases, such as cysts, stones, tumors, or normal conditions. The backend is built with FastAPI and containerized using Docker, while the frontend, developed with Next.js, provides a user-friendly interface for uploading images and viewing results.
----
-
 # Kidney Disease Classification
 
 This project aims to classify kidney disease using a deep learning model based on the VGG16 architecture. The project involves data ingestion, preprocessing, model training, and evaluation using TensorFlow and MLflow for experiment tracking.
