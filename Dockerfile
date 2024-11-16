@@ -4,7 +4,7 @@ FROM python:3.10.12-slim-buster
 RUN apt-get update -y && apt-get install -y awscli
 
 # # Create a writable directory for logs
-# RUN mkdir -p /tmp/logs && chmod -R 777 /tmp/logs
+RUN mkdir -p /model
 
 # Set the working directory
 WORKDIR /app
