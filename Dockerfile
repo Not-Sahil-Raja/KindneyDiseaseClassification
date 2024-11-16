@@ -3,8 +3,7 @@ FROM python:3.10.12-slim-buster
 # Install necessary packages
 RUN apt-get update -y && apt-get install -y awscli
 
-# # Create a writable directory for logs
-RUN mkdir -p /model
+
 
 # Set the working directory
 WORKDIR /app
@@ -14,6 +13,11 @@ COPY . /app
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
+
+# Create a directory to store the model
+RUN mkdir -p /model
+COPY download_model.py /app/download_model.py
+RUN python download_model.py
 
 # Expose the port the app runs on
 EXPOSE 8080
