@@ -5,7 +5,7 @@ colorTo: purple
 sdk: docker
 pinned: true
 license: apache-2.0
-short_description: A deep learning-based project to classify kidney diseases from medical images, utilizing a sequential model and FastAPI for serving predictions.
+short_description: A deep learning-based project to classify kidney diseases from medical images.
 tags:
   - deep learning
   - medical imaging
